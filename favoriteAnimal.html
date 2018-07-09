@@ -5,24 +5,68 @@
  	<title> Favorite Animal </title>
    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
    <style>
+   ul.nav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          position: fixed;
+          top: 0;
+          width: 100%;
+      }      
+
+      li {
+          float: left;
+      }      
+
+      li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }      
+
+      li a:hover:not(.active) {
+          background-color: #111;
+      }      
+
+      .active {
+          background-color: #4CAF50;
+
    body {
    	font-family: 'Oswald'; font-size: 22px
    }
+
 </style>
   </head>
   <body>
- 	<h1> Jordan Marder Favorite Animal </h1>
- 	    <img Src= "https://bit.ly/2D12lGk" style= "width: 200px">
- 		<img Src= "https://bit.ly/2Jw0SeM" style= "width: 200px">
- 		<img Src= "https://bit.ly/2lHDTQh" style= "width: 200px">
- 	<h2> My Favorite Animal: </h2>
- 	<ul>
- 		<li> Dogs </li>
- 		<li> Eagle </li>
- 		<li> Bears </li>
- 	</ul>
- 	<p class= "Dogs"> Dogs are one of my favorite animals because they are so friendly to humans if treated well.</p>
- 	<p class = "Eagle"> agle are one of my favorite animals because they inspire me and they are very smart.</p>
- 	<p class = "Bears"> Bears are one of my favorite animal because they are super funny and they will are just so fun to play with </p>
+ <!--    NAVBAR -->
+    <ul class='nav'>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Brandon.html">Birthdays</a></li>
+      <li><a href="favoriteAnimal.html">Favorite animal</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="vocabulary.html">Vocabulary</a></li>
+      <li style="float:right"><a class="active" href="about.html">About</a></li>
+    </ul>
+ 	
+    <div style="margin: 20px; margin-top: 50px">
+      <h1> Jordan Marder's Favorite Animal </h1>
+   	  <img Src= "https://bit.ly/2D12lGk" style= "width: 200px">
+   		<img Src= "https://bit.ly/2Jw0SeM" style= "width: 200px">
+   		<img Src= "https://bit.ly/2lHDTQh" style= "width: 200px">
+      <h2> My Favorite Animal: </h2>
+      <ul>
+      	<li> Dogs </li>
+      	<li> Eagle </li>
+      	<li> Bears </li>
+      </ul>
+
+      <p class= "Dogs"> Dogs are one of my favorite animals because they are so friendly to humans if treated well.</p>
+      <p class = "Eagle"> agle are one of my favorite animals because they inspire me and they are very smart.</p>
+      <p class = "Bears"> Bears are one of my favorite animal because they are super funny and they will are just so fun to play with </p>
+     </div>
    </body>
  </html>
