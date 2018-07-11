@@ -1,40 +1,11 @@
-<!DOCTYPEHTMl>
+<!DOCTYPE HTML>
 <html>
 <!-- <var Fire={id:10, firstname:"Jordan," Lastname:"Marder," age:12, location:"China," Favorite Animal: Dog} -->
   <head>
  	<title> Favorite Animal </title>
    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+   <link rel="stylesheet" type="text/css" href="styles.css">
    <style>
-   ul.nav {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-          position: fixed;
-          top: 0;
-          width: 100%;
-      }      
-
-      li {
-          float: left;
-      }      
-
-      li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-      }      
-
-      li a:hover:not(.active) {
-          background-color: #111;
-      }      
-
-      .active {
-          background-color: #4CAF50;
-
    body {
    	font-family: 'Oswald'; font-size: 22px
    }
@@ -43,14 +14,17 @@
   </head>
   <body>
  <!--    NAVBAR -->
-    <ul class='nav'>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Brandon.html">Birthdays</a></li>
-      <li><a href="favoriteAnimal.html">Favorite animal</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="vocabulary.html">Vocabulary</a></li>
-      <li style="float:right"><a class="active" href="about.html">About</a></li>
-    </ul>
+    <div class='topnav'>
+      <a href="index.html">Home</a>
+      <a href="Brandon.html">Birthdays</a>
+      <a class="active" href="favoriteAnimal.html">Favorite animal</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="vocabulary.html">Vocabulary</a>
+      <a href="resources.html"> Resources</a>
+      <a href="wordRainbow.html"> Word Rainbow </a>
+      <a href="countryTrivia.html"> Country Trivia </a>
+      <li style="float:right"><a  href="about.html">About</a></li>
+  </div>
  	
     <div style="margin: 20px; margin-top: 50px">
       <h1> Jordan Marder's Favorite Animal </h1>
